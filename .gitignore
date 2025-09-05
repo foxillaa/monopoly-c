@@ -1,0 +1,23 @@
+@"
+# IDE
+.idea/
+*.iml
+
+# C and build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.pdb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+build/
+Makefile
+compile_commands.json
+"@ | Out-File -Encoding utf8 .gitignore
